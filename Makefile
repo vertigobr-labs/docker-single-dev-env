@@ -6,3 +6,8 @@ build:
 .PHONY: run
 run:
 	go run main.go
+
+.PHONY: dev
+dev:
+	go get github.com/pilu/fresh
+	fresh
