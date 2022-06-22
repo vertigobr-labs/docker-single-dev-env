@@ -23,3 +23,12 @@ Hello from Docker!
 
 ```
 
+## Hot reloading
+You can simply use `make dev` command to run the application with hot reloading changes.
+
+Or do it yourself manually:
+
+```sh
+go get github.com/pilu/fresh # once
+fresh
+```
